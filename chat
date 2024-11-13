@@ -1,3 +1,9 @@
+
+game.StarterGui:SetCore("SendNotification", {
+    Title = "MADE BY HAXAREBEST";
+    Text = "FUCK ALL THE BITCHES";
+    Duration = 5
+    })
 if not game:IsLoaded() then
     game.IsLoaded:Wait()
 end
@@ -38,7 +44,7 @@ end
 end
     
     
-local guiName = "GazeGayUI5"
+local guiName = "thicc negative v69"
 local coreGay = game:GetService("CoreGui")
 
 
@@ -50,10 +56,10 @@ if not coreGay:FindFirstChild(guiName) then
     
     screenGui.Parent = coreGay
 
-    makeMessage("•   Gaze bypass V6 loaded.")
+    makeMessage("•   thicc nigga V69 loaded.")
 else
    
-    makeMessage("•   Gaze bypass V6 is already executed..")
+    makeMessage("•   thicc nigga V69 is already executed..")
     return
 end
 
@@ -100,7 +106,7 @@ GazerTitle.BackgroundColor3 = Color3.fromRGB(255, 238, 238)
 GazerTitle.BorderColor3 = Color3.fromRGB(255, 89, 98)
 GazerTitle.BorderSizePixel = 1
 GazerTitle.BackgroundTransparency = 1
-GazerTitle.Text = "Gaze Bypass"
+GazerTitle.Text = "THICC NIGGA"
 GazerTitle.TextSize = 30
 GazerTitle.TextColor3 = Color3.fromRGB(255, 200, 200)
 GazerTitle.Font = Enum.Font.GothamBold
@@ -155,7 +161,7 @@ TextBax.Position = UDim2.new(0.1, 0, 0.3, 0)
 TextBax.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
 TextBax.BorderColor3 = Color3.fromRGB(70, 70, 70)
 TextBax.BorderSizePixel = 1
-TextBax.PlaceholderText = "(Enter Message)"
+TextBax.PlaceholderText = "(Write your shitty massage here)"
 TextBax.TextColor3 = Color3.new(1, 1, 1)
 TextBax.Font = Enum.Font.Code
 TextBax.ClearTextOnFocus = true
@@ -278,71 +284,71 @@ end
 
 
 
-    example("Gaze Bypass V6 is fucking awesome!")
-example("https://www.youtube.com/@gazer_ha")
-example("#GazeBypassAtTheFuckingBottom")
-example("Fuck around and find out for yourself")
+    example("thicc negative V69 is fucking awesome!")
+example("WHO WANTS TO BE MY FUCK BUDDY FOR FREE?")
+example("#WEANALFUCKYOURMOTHERS")
+example("ILL PAY YOU 10 BUCKS TO FUCK WITH ME")
 example("Want some free Robux?| Go to Xvideos.com for free Robux")
-example("I'm tired of all this shit")
-example("That was cuntacular 💯")
-example("Stop being a cunt")
-example("Fuck this shit")
-example("Go fuck yourself")
-example("I want to kill myself")
+example("ILL SHIT ON YOUR FACE")
+example("IM THE BEST AT MASTURBATING")
+example("Stop being a nigga")
+example("FUCK ME MOMMY PLS SUCK MY COCK")
+example("Go fuck yourself for daddy")
+example("I want to fuck myself")
 example("There's no cure for being a cunt")
-example("Fuck you")
-example("Fuck you | with love {♡}")
-example("1 nigga | 2 nigga | oh damn")
+example("fuck you you stupid motherfucker")
+example("ill fuck you untill i masturbate 10x")
+example("stop staring at my female dick")
 example("https://xvideos.com")
-example("https://pornhub.com is awesome")
-example("I have a cute XHamster")
+example("https://kekma.net is awesome")
+example("I have a cute nigger")
 example("https://nhentai.net")
 example("https://nekopoi.care")
 example("E621? Eugh, what the fuck?")
 example("This shit is absolutely insane!")
-    example("What the hell were you thinking?")
-    example("You're such a dumbass")
+    example("What the absolutly fuck were you thinking?")
+    example("You're such a bastard")
     example("i can't believe this bullshit")
     example("This is a load of crap")
-    example("Get your head out of your ass")
+    example("Get your head out of my ass")
     example("You're driving me fucking crazy")
     example("Quit acting like a little bitch")
     example("This is some serious bullshit right here")
-    example("i don't give a flying fuck")
+    example("i don't give a fuck for niggers like you")
     example("You think you're hot shit, huh?")
-    example("What the fuck is going on?")
-    example("This party is lit as fuck")
-    example("i'm so done with this crap")
-    example("Don't be a little shit")
+    example("Where the fuck are the bitches at?")
+    example("This party is bad as fuck")
+    example("i'm so done with this shit")
+    example("Don't be a little nigger")
     example("You absolute legend, you crazy bastard")
-    example("Shut the fuck up already")
-    example("i'm not in the mood for your bullshit")
+    example("Shut the fuck up and suck my dick already")
+    example("i'm not in the mood for anal sex")
     example("You're being a real pain in the ass")
-    example("This is fucking ridiculous")
+    example("BE A BRAVE SEX SLAVE FOR DADDY")
     example("Get your shit together")
     example("You gotta be shitting me")
     example("What the fuck is this nonsense?")
     example("You're a total piece of shit")
-    example("i'm so fucking tired of this drama")
-    example("Get your shit together, damn it")
-    example("Why the hell would you do that?")
+    example("i'm so fucking tired of this nigger")
+    example("BECAUSE NIGGERS LIKE YOU SADLY EXISTS")
+    example("ABC TO FUCK WITH ME FOR FREE")
     example("This is driving me absolutely nuts")
-    example("i can't deal with this crap anymore")
+    example("i can't deal with this shit anymore")
     example("Seriously, what the hell were you thinking?")
     example("You are being a complete jackass")
     example("This place is a fucking mess")
     example("Don't test me, you moron")
     example("i swear to god, this is fucking ridiculous")
-    example("You're such a fucking idiot")
+    example("You're such a fucking nigger")
     example("Stop being such a whiny brat")
     example("This is beyond fucking stupid")
-    example("You're asking for trouble, you know that?")
+    example("You're asking for bitches, you know that?")
     example("Get the fuck out of my way")
-    example("What kind of bullshit is this?")
+    example("What kind of nigga is this?")
     example("i’m done with your bullshit excuses")
-    example("You're really pushing my buttons here")
+    example("You're really pushing my titties here")
     example("This is a complete fucking disaster")
-    example("Shit happens, but this is too much")
+    example("shit happens, but this is too much")
     
     
     
@@ -353,7 +359,7 @@ local hour = time.hour -- Extract the hour
 local minute = time.min -- Extract the minute
 
 
-    example("This Fuckers Executed At = " .. string.format("%02d:%02d", hour, minute))
+    example("This fuckers Executed At = " .. string.format("%02d:%02d", hour, minute))
 local LocalizationS = game:GetService("LocalizationService")
 local Player = game.Players.LocalPlayer
 
@@ -696,45 +702,34 @@ end
 
 local function modifyText(input)
 local replacements = {
-        sex = "s••••••e•x•",
-        Sex = "S••••••e•x",
-        SEX = "S••••••E•X",
-        ass = "•a••••••s•s•",
-        Ass = "•A••••••s•s•",
-        ASS = "•A••••••S•S•",
-        fuck = "f••••••u•c•k•",
-        Fuck = "F••••••u•c•k•",
-        FUCK = "F••••••U•C•K•",
-        damn = "•d••••••a••m••n•",
-        Damn = "•D••••••a••m••n•",
-        DAMN = "•D••••••A••M••N•",
-        shit = "•s••••••h•i•t•",
-        Shit = "•S••••••h•i•t•",
-        SHIT = "•S••••••H•I•T•",
-        pornhub = "•p••••••o•r•n•••h•••ub•",
-        Pornhub = "•P••••••o•r•n•••h•••ub•",
-        porn = "•p••••••o•r•n•",
-        Porn = "•P••••••o•r•n•",
-        PORN = "•P••••••O•R•N•",
-        bitch = "•b•i•t•••c•h•",
-        Bitch = "•B•i•t•••c•h•",
-        BITCH = "•B•I•T•••C•H•",
-        nigga = "ṇ•ị•g•••g•a",
-        nigger = "ṇ•ị•g•••g•e•r\b•n•",
-        Nigga = "Ṇ•ị•g•••g•a",
-        Nigger = "Ṇ•ị•g•••g•e•r\b•n•",
-        NIGGER = "Ṇ•Ị•Ģ•••Ģ•E•R\b•N•",
-        NIGGAS = "Ṇ•Ị•Ģ•••Ģ•A•S\b•N•",
-        NIGGA = "Ṇ•Ị•Ģ•••Ģ•A\b•N•",
-        dick = "•d•i••c•k•",
+        sex = "s͓͓̽̽••ę••x͓̽",
+        Sex = "̠S̠̠••ę••x͓̽",
+        SEX = "S̳̠̿͟͞••Ę••X͓̽",
+        ass = "̳a̳̳s͓̽̽s͓͓̽̽",
+        ASS = "͎A͎͎̳S̳S̳̿͟͞",
+        fuck = "f̳̿͟͞•u͎͎̾••c̳̾̾••••k̳",
+        FUCK = "F̾̾̾•U̳̿͟͞••C̾̾•••K͓̽",
+        damn = "d̳̿͟͞••a̾̾•̳m̳̳ñ",
+        DAMN = "D͎͎•A̳̿͟͞••M̲̲•͓̽N͓̽",
+        shit = "s͎͎••h̳̿͟͞••i̲̲t̲",
+        SHIT = "S̳̿͟͞••Hͯͯ••I̳̳T͓̽",
+        porn = "p̲̲•o̳̿͟͞•r̾̾n͓̽",
+        PORN = "P̾̾••O͓͓̽̽•R͎͎••N̳̿͟͞",
+        bitch = "bͯͯ•i̳̿͟͞•t••c̳̾h̾",
+        BITCH = "B̾̾•I͓͓̽̽••T̲̲•C̳̿͟͞••H͎",
+        nigga = "n̳̳••ï̲͓̽•g͓͓̽̽••ģ•••a̳̿͟͞",
+        nigger = "n̳̳•ï̲͓̽•g͓͓̽̽••ģ•e̳̿͟͞•ɍ͓̽",
+        NIGGER = "Ṇ•Ị•Ģ•••Ģ•E•R",
+        NIGGA = "N̳Ï͓̲̽G͟͞Ģ̾̽A̳̽",
+        dick = "•d̾̾ͯ•i̳̳••c̳̿͟͞•k͓̽•",
+        DICK = "D̾̾•I̳̳••Cͯͯ•••K͓̽",
+        cock = "c̾̾••o͎͎̳c̳̳•••k͓̽",
+        COCK = "C̾̾•O̳̿͟͞••C͓͓̽̽•••K͎",
         gay = "g••••••a•y",
-        Gay = "Ģ••••••a•y",
         GAY = "Ģ••••••A•Y",
-        pussy = "•p•u•s•s••••••y•",
-        Pussy = "•P•u•s•s••••••y•",
-        PUSSY = "•P•U•S•S••••••Y•",
+        pussy = "p͓͓̽̽••u͎͎•s̳̿͟͞••s̳̳•yͯ",
+        PUSSY = "P̾̾••U̳̳•S͎͎•S̿͟͞•••Y͓̽",
         breast = "•b•r••••••e•a•s•t•",
-        Breast = "•B•r••••••e•a•s•t•",
         BREAST ="•B•R••••••E•A•S•T•",
         ["0"] = "\xEF\xBC\x90•",
     ["1"] = "\xEF\xBC\x91•",
@@ -811,7 +806,7 @@ local replacements = {
     if game:GetService("TextChatService"):FindFirstChild("TextChannels") then
         game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync("<<<℻>>>\r>\b" .. A_1)
     else
-        game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("<<</>>>\b" .. A_1, A_2)
+        game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("<<<℻>>>\b" .. A_1, A_2)
     end
 end
     
