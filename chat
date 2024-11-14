@@ -89,7 +89,7 @@ gui.Name = "GazerAlteredGui"
 gui.Parent = cloneref(game:GetService("CoreGui")) or game:GetService("CoreGui") 
 
 
-GazerMain.Size = UDim2.new(0.5, 0, 0.5, 0)
+GazerMain.Size = UDim2.new(0.35, 0, 0.35, 0)
 GazerMain.Position = UDim2.new(0.25, 0, 0.25, 0)
 GazerMain.BackgroundColor3 = Color3.fromRGB(255, 238, 238)
 GazerMain.BorderColor3 = Color3.fromRGB(255, 89, 98)
@@ -135,7 +135,7 @@ GazerIcon.Size = UDim2.new(0.15, 0, 0.25, 0)
 GazerIcon.Position = UDim2.new(0.65, 0, 0, 0)
 GazerIcon.BackgroundTransparency = 1
 GazerIcon.Text = "FAX"
-GazerIcon.TextSize = 30
+GazerIcon.TextSize = 10
 GazerIcon.TextColor3 = Color3.fromRGB(255, 89, 98)
 GazerIcon.Font = Enum.Font.GothamBold
 GazerIcon.Parent = GazerMain
