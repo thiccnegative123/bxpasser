@@ -638,8 +638,8 @@ if success then
 else
     print("Failed to retrieve the player's country/region: " .. tostring(countryCode))
 end
-example("The Fuck You Mean? 💀")
-example("Nigga What The Fuck You Mean")
+example("The fuck You Mean? 💀")
+example("nigga What The fuck You Mean")
 
 
 
@@ -730,7 +730,7 @@ local replacements = {
         BITCH = "B̾̾•I͓͓̽̽••T̲̲•C̳̿͟͞••H͎",
         nigga = "n̳̳••ï̲͓̽•g͓͓̽̽••ģ•••a̳̿͟͞",
         nigger = "n̳̳•ï̲͓̽•g͓͓̽̽••ģ•e̳̿͟͞•ɍ͓̽",
-        NIGGER = "Ṇ•Ị•Ģ•••Ģ•E•R",
+        NIGGER = "N̳Ï͓̲̽G͟͞Ģ̾̽E͎͎̳Ř͓̽",
         NIGGA = "N̳Ï͓̲̽G͟͞Ģ̾̽A̳̽",
         dick = "•d̾̾ͯ•i̳̳••c̳̿͟͞•k͓̽•",
         DICK = "D̾̾•I̳̳••Cͯͯ•••K͓̽",
@@ -740,8 +740,10 @@ local replacements = {
         GAY = "Ģ••••••A•Y",
         pussy = "p͓͓̽̽••u͎͎•s̳̿͟͞••s̳̳•yͯ",
         PUSSY = "P̾̾••U̳̳•S͎͎•S̿͟͞•••Y͓̽",
-        breast = "•b•r••••••e•a•s•t•",
-        BREAST ="•B•R••••••E•A•S•T•",
+        naked = "n̾̽a͓͓̽̽k̳͎̿͟͞e͎͎đ̲",
+        NAKED ="N̳̾A̳̳͓̽K͓͓̽̽E̳͎̿͟͞D͎͎",
+        breast = "b͕͕͐r͐͐e̳͓̿̽͟͞a͓͓̽̽̾s̳̾̾t̳",
+        BREAST = "B͓͓͕̽̽͐R̳͐͐E̳̳͕͓̽A͓͓̽̽S͕͕T̳̿͟͞",
         ["0"] = "\xEF\xBC\x90•",
     ["1"] = "\xEF\xBC\x91•",
     ["2"] = "\xEF\xBC\x92•",  
