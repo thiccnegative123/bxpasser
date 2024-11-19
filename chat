@@ -638,8 +638,8 @@ if success then
 else
     print("Failed to retrieve the player's country/region: " .. tostring(countryCode))
 end
-example("The fuck You Mean? 💀")
-example("nigga What The fuck You Mean")
+example("The Fuck You Mean? 💀")
+example("Nigga What The Fuck You Mean")
 
 
 
@@ -713,37 +713,35 @@ end
 
 local function modifyText(input)
 local replacements = {
-        sex = "s͓͓̽̽••ę••x͓̽",
-        Sex = "̠S̠̠••ę••x͓̽",
-        SEX = "S̳̠̿͟͞••Ę••X͓̽",
+        sex = "s̋̋̊e͓͓̽̽x͕͐",
+        SEX = "S̳̠̿͟͞ĘX͓̽",
         ass = "̳a̳̳s͓̽̽s͓͓̽̽",
         ASS = "͎A͎͎̳S̳S̳̿͟͞",
-        fuck = "f̳̿͟͞•u͎͎̾••c̳̾̾••••k̳",
-        FUCK = "F̾̾̾•U̳̿͟͞••C̾̾•••K͓̽",
-        damn = "d̳̿͟͞••a̾̾•̳m̳̳ñ",
-        DAMN = "D͎͎•A̳̿͟͞••M̲̲•͓̽N͓̽",
-        shit = "s͎͎••h̳̿͟͞••i̲̲t̲",
-        SHIT = "S̳̿͟͞••Hͯͯ••I̳̳T͓̽",
-        porn = "p̲̲•o̳̿͟͞•r̾̾n͓̽",
-        PORN = "P̾̾••O͓͓̽̽•R͎͎••N̳̿͟͞",
-        bitch = "bͯͯ•i̳̿͟͞•t••c̳̾h̾",
-        BITCH = "B̾̾•I͓͓̽̽••T̲̲•C̳̿͟͞••H͎",
-        nigga = "n̳̳••ï̲͓̽•g͓͓̽̽••ģ•••a̳̿͟͞",
-        nigger = "n̳̳•ï̲͓̽•g͓͓̽̽••ģ•e̳̿͟͞•ɍ͓̽",
+        fuck = "f͓͓̽̽ů̊c͕͐͐k̳͎̿͟͞",
+        FUCK = "F̾̾̾U̳̿͟͞C̾̾K͓̽",
+        damn = "d̳̿͟͞a̾m̳̳ñ",
+        DAMN = "D͎͎A̳̿͟͞M̲̲N͓̽",
+        shit = "s͎͎h̳̿͟͞i̲̲t̲",
+        SHIT = "S̳̿͟͞HͯͯI̳̳T͓̽",
+        porn = "p̲̲o̳̿͟͞r̾̾n͓̽",
+        PORN = "P̾̾O͓͓̽̽R͎͎N̳̿͟͞",
+        bitch = "bͯͯi̳̿͟͞tc̳̾h̾",
+        BITCH = "B̾̾I͓͓̽̽T̲̲C̳̿͟͞H͎",
+        nigga = "n̳̳ï̲͓̽g͓͓̽̽ģa̳̿͟͞",
+        nigger = "n̳̳ï̲͓̽g͓͓̽̽ģe̳̿͟͞ɍ͓̽",
         NIGGER = "N̳Ï͓̲̽G͟͞Ģ̾̽E͎͎̳Ř͓̽",
         NIGGA = "N̳Ï͓̲̽G͟͞Ģ̾̽A̳̽",
-        dick = "•d̾̾ͯ•i̳̳••c̳̿͟͞•k͓̽•",
-        DICK = "D̾̾•I̳̳••Cͯͯ•••K͓̽",
-        cock = "c̾̾••o͎͎̳c̳̳•••k͓̽",
-        COCK = "C̾̾•O̳̿͟͞••C͓͓̽̽•••K͎",
-        gay = "g••••••a•y",
-        GAY = "Ģ••••••A•Y",
-        pussy = "p͓͓̽̽••u͎͎•s̳̿͟͞••s̳̳•yͯ",
-        PUSSY = "P̾̾••U̳̳•S͎͎•S̿͟͞•••Y͓̽",
+        dick = "d̾̾ͯi̳̳c̳̿͟͞k͓̽",
+        DICK = "D̾̾I̳̳CͯͯK͓̽",
+        cock = "c̾̾o͎͎̳c̳̳k͓̽",
+        COCK = "C̾̾O̳̿͟͞C͓͓̽̽K͎",
+        gay = "gay",
+        GAY = "ĢAY",
+        pussy = "p͓͓̽̽u͎͎s̳̿͟͞s̳̳yͯ",
+        PUSSY = "P̾̾U̳̳S͎͎S̿͟͞Y͓̽",
         naked = "n̾̽a͓͓̽̽k̳͎̿͟͞e͎͎đ̲",
         NAKED ="N̳̾A̳̳͓̽K͓͓̽̽E̳͎̿͟͞D͎͎",
         breast = "b͕͕͐r͐͐e̳͓̿̽͟͞a͓͓̽̽̾s̳̾̾t̳",
-        BREAST = "B͓͓͕̽̽͐R̳͐͐E̳̳͕͓̽A͓͓̽̽S͕͕T̳̿͟͞",
         ["0"] = "\xEF\xBC\x90•",
     ["1"] = "\xEF\xBC\x91•",
     ["2"] = "\xEF\xBC\x92•",  
@@ -801,7 +799,6 @@ local replacements = {
             result = result .. char
             
             if i < #modifiedInput and modifiedInput:sub(i + 1, i + 1) ~= " " then
-                result = result .. "•"
             end
         end
     end
@@ -817,9 +814,9 @@ local replacements = {
     local A_2 = "All"
 
     if game:GetService("TextChatService"):FindFirstChild("TextChannels") then
-        game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync("<<<℻>>>\r>\b" .. A_1)
+        game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync("<<FAX>>" .. A_1)
     else
-        game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("<<<℻>>>\b" .. A_1, A_2)
+        game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("<<FAX>>".. A_1, A_2)
     end
 end
     
