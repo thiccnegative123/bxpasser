@@ -718,15 +718,15 @@ local replacements = {
         ass = "̳a̳̳s͓̽̽s͓͓̽̽",
         ASS = "͎A͎͎̳S̳S̳̿͟͞",
         fuck = "f͓͓̽̽ů̊c͕͐͐k̳͎̿͟͞",
-        FUCK = "F̾̾̾U̳̿͟͞C̾̾K͓̽",
+        FUCK = "Ŧ̊͐U͓̠̅̅̽͐C̠̠̅K̽̈́̌",
         damn = "d̳̿͟͞a̾m̳̳ñ",
         DAMN = "D͎͎A̳̿͟͞M̲̲N͓̽",
         shit = "s͎͎h̳̿͟͞i̲̲t̲",
         SHIT = "S̳̿͟͞HͯͯI̳̳T͓̽",
-        porn = "p̲̲o̳̿͟͞r̾̾n͓̽",
+        porn = "p̠̠̠̳̅o̳̿͟͞r̋̋̅̊n͕̅",
         PORN = "P̾̾O͓͓̽̽R͎͎N̳̿͟͞",
-        bitch = "bͯͯi̳̿͟͞tc̳̾h̾",
-        BITCH = "B̾̾I͓͓̽̽T̲̲C̳̿͟͞H͎",
+        bitch = "b͐͐̊i̊̊̋̽t͓̽̽¢h̟ͮ",
+        BITCH = "B͓̊̊̽I̳͕̿͟͞T͕͕̦͓̫̞C̷͕͓̠͑̈̉̋̒H̷̅",
         nigga = "n̳̳ï̲͓̽g͓͓̽̽ģa̳̿͟͞",
         nigger = "n̳̳ï̲͓̽g͓͓̽̽ģe̳̿͟͞ɍ͓̽",
         NIGGER = "N̳Ï͓̲̽G͟͞Ģ̾̽E͎͎̳Ř͓̽",
@@ -742,16 +742,16 @@ local replacements = {
         naked = "n̾̽a͓͓̽̽k̳͎̿͟͞e͎͎đ̲",
         NAKED ="N̳̾A̳̳͓̽K͓͓̽̽E̳͎̿͟͞D͎͎",
         breast = "b͕͕͐r͐͐e̳͓̿̽͟͞a͓͓̽̽̾s̳̾̾t̳",
-        ["0"] = "\xEF\xBC\x90•",
-    ["1"] = "\xEF\xBC\x91•",
-    ["2"] = "\xEF\xBC\x92•",  
-    ["3"] = "\xEF\xBC\x93•",  
-    ["4"] = "\xEF\xBC\x94•",  
-    ["5"] = "\xEF\xBC\x95•",  
-    ["6"] = "\xEF\xBC\x96•", 
-    ["7"] = "\xEF\xBC\x97•", 
-    ["8"] = "\xEF\xBC\x98•",  
-    ["9"] = "\xEF\xBC\x99•",  
+        ["ozforzzfiitditdtidizfizftkd"] = "\xEF\xBC\x90•",
+    ["orri5re75f755e775fe75f3"] = "\xEF\xBC\x91•",
+    ["qwruigfuxgzhxih"] = "\xEF\xBC\x92•",  
+    ["qwtuftuguhuhigihjgugj"] = "\xEF\xBC\x93•",  
+    ["dugggjfgjfhggffffffffuuuuu"] = "\xEF\xBC\x94•",  
+    ["etzrrutjhhzhuhuhhughh"] = "\xEF\xBC\x95•",  
+    ["etuteurzghuhuhuh"] = "\xEF\xBC\x96•", 
+    ["dzuztzugughugugjgugz"] = "\xEF\xBC\x97•", 
+    ["rugzjhugugihugtzzttuzg"] = "\xEF\xBC\x98•",  
+    ["if75rr7z75re75f7f5e"] = "\xEF\xBC\x99•",  
     }
 
     local lowerInput = input
@@ -814,9 +814,9 @@ local replacements = {
     local A_2 = "All"
 
     if game:GetService("TextChatService"):FindFirstChild("TextChannels") then
-        game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync("<<FAX>>" .. A_1)
+        game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync("<<<FAX>>>" .. A_1)
     else
-        game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("<<FAX>>".. A_1, A_2)
+        game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("<<<FAX>>>".. A_1, A_2)
     end
 end
     
