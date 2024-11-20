@@ -361,8 +361,6 @@ example("This shit is absolutely insane!")
    example("I FUCK EVERY SINGLE BICH EVERY SINGLE FUCKING DAY!")
    example("you can be one of my many bitches")
     
-    
-    
    
 
     local time = os.date("*t") -- Gets the current time in table format
@@ -717,7 +715,7 @@ local replacements = {
         SEX = "S̳̠̿͟͞ĘX͓̽",
         ass = "̳a̳̳s͓̽̽s͓͓̽̽",
         ASS = "͎A͎͎̳S̳S̳̿͟͞",
-        fuck = "f͓͓̽̽ů̊c͕͐͐k̳͎̿͟͞",
+        fuck = "f͓̽͠ů̊̋c͐͐k̳̿͟͞",
         FUCK = "Ŧ̊͐U͓̠̅̅̽͐C̠̠̅K̽̈́̌",
         damn = "d̳̿͟͞a̾m̳̳ñ",
         DAMN = "D͎͎A̳̿͟͞M̲̲N͓̽",
@@ -727,13 +725,13 @@ local replacements = {
         PORN = "P̾̾O͓͓̽̽R͎͎N̳̿͟͞",
         bitch = "b͐͐̊i̊̊̋̽t͓̽̽¢h̟ͮ",
         BITCH = "B͓̊̊̽I̳͕̿͟͞T͕͕̦͓̫̞C̷͕͓̠͑̈̉̋̒H̷̅",
-        nigga = "n̳̳ï̲͓̽g͓͓̽̽ģa̳̿͟͞",
+        nigga = "\nn̛̳̳͒̎͑ͫ͐͐̚̕ï̛̲͓̽͒̎͑ͫ͐͐̚̕g̛͓͓̽̽͒̎͑ͫ͐͐̚̕ģ̛͒̎͑ͫ͐͐̚̕a̛̳̘̯̙͈̫̹̜̿͟͢͞ͅ",
         nigger = "n̳̳ï̲͓̽g͓͓̽̽ģe̳̿͟͞ɍ͓̽",
         NIGGER = "N̳Ï͓̲̽G͟͞Ģ̾̽E͎͎̳Ř͓̽",
         NIGGA = "N̳Ï͓̲̽G͟͞Ģ̾̽A̳̽",
         dick = "d̾̾ͯi̳̳c̳̿͟͞k͓̽",
         DICK = "D̾̾I̳̳CͯͯK͓̽",
-        cock = "c̾̾o͎͎̳c̳̳k͓̽",
+        cock = "c͓͓̽̽o̳̿͟͞c̟͕ͩͣ̇̋ͨͣ̈͛͐҉kͬ̋",
         COCK = "C̾̾O̳̿͟͞C͓͓̽̽K͎",
         gay = "gay",
         GAY = "ĢAY",
@@ -742,6 +740,7 @@ local replacements = {
         naked = "n̾̽a͓͓̽̽k̳͎̿͟͞e͎͎đ̲",
         NAKED ="N̳̾A̳̳͓̽K͓͓̽̽E̳͎̿͟͞D͎͎",
         breast = "b͕͕͐r͐͐e̳͓̿̽͟͞a͓͓̽̽̾s̳̾̾t̳",
+        suck = "s̬͟u̬͟c̊̋kͣ̈͛͐҉",
         ["ozforzzfiitditdtidizfizftkd"] = "\xEF\xBC\x90•",
     ["orri5re75f755e775fe75f3"] = "\xEF\xBC\x91•",
     ["qwruigfuxgzhxih"] = "\xEF\xBC\x92•",  
@@ -814,9 +813,9 @@ local replacements = {
     local A_2 = "All"
 
     if game:GetService("TextChatService"):FindFirstChild("TextChannels") then
-        game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync("<<<FAX>>>" .. A_1)
+        game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync("<<<FAX>>><<<ANOTHER>>>" .. A_1)
     else
-        game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("<<<FAX>>>".. A_1, A_2)
+        game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("<<<FAX>>><<<ANOTHER>>>".. A_1, A_2)
     end
 end
     
