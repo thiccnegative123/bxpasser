@@ -91,8 +91,8 @@ gui.Parent = cloneref(game:GetService("CoreGui")) or game:GetService("CoreGui")
 
 GazerMain.Size = UDim2.new(0.35, 0, 0.35, 0)
 GazerMain.Position = UDim2.new(0.25, 0, 0.25, 0)
-GazerMain.BackgroundColor3 = Color3.fromRGB(255, 238, 238)
-GazerMain.BorderColor3 = Color3.fromRGB(255, 89, 98)
+GazerMain.BackgroundColor3 = Color3.fromRGB(10, 8, 10)
+GazerMain.BorderColor3 = Color3.fromRGB(25, 89, 98)
 GazerMain.BorderSizePixel = 1
 GazerMain.Active = true
 GazerMain.Draggable = true
@@ -102,8 +102,8 @@ Smooth(GazerMain)
 
 GazerTitle.Size = UDim2.new(0.85, 0, 0.2, 0) 
 GazerTitle.Position = UDim2.new(0, 0, 0, 0)
-GazerTitle.BackgroundColor3 = Color3.fromRGB(255, 238, 238)
-GazerTitle.BorderColor3 = Color3.fromRGB(255, 89, 98)
+GazerTitle.BackgroundColor3 = Color3.fromRGB(15, 38, 48)
+GazerTitle.BorderColor3 = Color3.fromRGB(65, 89, 98)
 GazerTitle.BorderSizePixel = 1
 GazerTitle.BackgroundTransparency = 1
 GazerTitle.Text = "THICC NIGGA"
@@ -115,8 +115,8 @@ GazerTitle.Parent = GazerMain
 
 GazerTitle2.Size = UDim2.new(0.5, 0, 0.1, 0)
 GazerTitle2.Position = UDim2.new(1.1, 0, 0, 0)
-GazerTitle2.BackgroundColor3 = Color3.fromRGB(255, 89, 98)
-GazerTitle2.BorderColor3 = Color3.fromRGB(255, 238, 238)
+GazerTitle2.BackgroundColor3 = Color3.fromRGB(25, 89, 98)
+GazerTitle2.BorderColor3 = Color3.fromRGB(25, 138, 138)
 GazerTitle2.BorderSizePixel = 1
 GazerTitle2.Text = "Examples"
 GazerTitle2.TextSize = 20
@@ -135,8 +135,8 @@ GazerIcon.Size = UDim2.new(0.15, 0, 0.25, 0)
 GazerIcon.Position = UDim2.new(0.65, 0, 0, 0)
 GazerIcon.BackgroundTransparency = 1
 GazerIcon.Text = "FAX"
-GazerIcon.TextSize = 10
-GazerIcon.TextColor3 = Color3.fromRGB(255, 89, 98)
+GazerIcon.TextSize = 8
+GazerIcon.TextColor3 = Color3.fromRGB(221, 9, 18)
 GazerIcon.Font = Enum.Font.GothamBold
 GazerIcon.Parent = GazerMain
 
@@ -159,7 +159,7 @@ end)
 TextBax.Size = UDim2.new(0.8, 0, 0.2, 0)
 TextBax.Position = UDim2.new(0.1, 0, 0.3, 0)
 TextBax.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
-TextBax.BorderColor3 = Color3.fromRGB(70, 70, 70)
+TextBax.BorderColor3 = Color3.fromRGB(50, 50, 50)
 TextBax.BorderSizePixel = 1
 TextBax.PlaceholderText = "(Write your shitty massage here)"
 TextBax.TextColor3 = Color3.new(1, 1, 1)
@@ -175,8 +175,8 @@ Smooth(TextBax)
 toggleScrollFrameBtn.Size = UDim2.new(0.2, 0, 0.2, 0)
 toggleScrollFrameBtn.Position = UDim2.new(0.70, 0, 0.5, 0)
 toggleScrollFrameBtn.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
-toggleScrollFrameBtn.BorderColor3 = Color3.fromRGB(70, 70, 70)
-toggleScrollFrameBtn.Text = "Examples"
+toggleScrollFrameBtn.BorderColor3 = Color3.fromRGB(40, 40, 40)
+toggleScrollFrameBtn.Text = "My ideas"
 toggleScrollFrameBtn.TextSize = 18
 toggleScrollFrameBtn.TextColor3 = Color3.new(1, 1, 1)
 toggleScrollFrameBtn.Font = Enum.Font.Code
@@ -260,8 +260,8 @@ task.wait()
     local textButton = Instance.new("TextButton")
     textButton.Size = UDim2.new(1, -10, 0, 40) -- Full width of scroll frame, height of 40
     textButton.Position = UDim2.new(0, 5, 0, (buttonCount - 1) * 45) -- Space each button 45 pixels apart
-    textButton.BackgroundColor3 = Color3.fromRGB(255, 89, 98)
-    textButton.BorderColor3 = Color3.fromRGB(255, 238, 238)
+    textButton.BackgroundColor3 = Color3.fromRGB(111, 59, 58)
+    textButton.BorderColor3 = Color3.fromRGB(71, 18, 188)
     textButton.Text = text
     textButton.TextScaled = true -- Enable text scaling
     textButton.TextWrapped = true -- Wrap the text if needed
@@ -661,7 +661,7 @@ UICornerChat.Parent = chat
 
 local function createButtonTween(button)
     local tweenInfo = TweenInfo.new(0.2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out)
-    local goal = {BackgroundColor3 = Color3.fromRGB(100, 100, 100)} -- Change color when clicked
+    local goal = {BackgroundColor3 = Color3.fromRGB(130, 110, 80)} -- Change color when clicked
 
     local tween = TweenService:Create(button, tweenInfo, goal)
     return tween
@@ -753,16 +753,16 @@ local replacements = {
         FAGGOT = "F̳̳͓̽<>A͓͓̽̽G̳̺̘̟̼̿̓͟͞G̭͙͈͉̲̏ͭ͂<>Ő̲̲T͓̋̊̽",
         suicide = "s͎͎̲u̲̲i̙͙c̳͓̿̽͟͞i͓͓̽̽͐d͕͐͐̊e̊̋",
         SUICIDE = "S̲̲͐U͐͐I̳̿̈͟͞C͕͓̝͕͑̈̉̋̒I͕͕͐D͓͓̽̽̋E̋̊",
-        drugs = "d͓͓͎̽̽ͧ͐r̄̀̂u̳̹̖̿̋͟͞g̷̢͡s̳̿͟͞",
+        drugs = "",
         DRUGS = "",
         cum = "c͓͓̽̽̋u̳̿ͣ̈͛͟͞m̑̑̃̾",
         CUM = "C͓͓U̵̶̳̱̿͟͢͞M͏̬̗͍",
-        zoophile = "",
-        ZOOPHILE = "",
-        masturbat = "",
-        MASTURBAT = "",
-        whore = "",
-        WHORE = "",
+        zoophile = "z͎̅̅o͎͎͓o͓͓p̳̿̾͟͞h̟̪̜ͮ̎̄̆i͗̔͒̐̏l̳̿̊͟͞e͓̊̋̽",
+        ZOOPHILE = "Z͓̅̅O͓͓̲O̲̲P̳̮͓̗̮̿͟͞H̨͖̠͓̣͜ͅͅI̳̿͟͞L͕͐͐̊E͓̊̋̽",
+        masturbat = "m͎͓a͓͓̲s̳̿͟͞t̸̢̲̲̾͛̇̏̓ͭ̌͢ủ̷͗̓́͐r͕͐͐b̳͓̿̽͟͞a͓͓̽̽̊t͕̊̋",
+        MASTURBAT = "M̲̲͎A͎͎̅S̅̅T̳̿ͫͮͭ͟͞U̱̬̙̠ͩ̃͑̏B͕͕͐A̳̿̊͟͞T̊̋",
+        whore = "w͓͓͎̽̽h͎͎o̳͍̭̿ͯ̉͟͞r̯̠̦̩ͨ̌̑̊e͓̊̋",
+        WHORE = "W͎͎͓̽H͓͓̽̽O̳̰̿͟͟͞Ŗ̜̯͟͡҉̶̡͕̊E͓̊̋̽",
         cunt = "",
         CUNT = "",
         dildo = "d͓͓͎̽̽i͎͎l̳̿̽͟͞d̼̪̫̙̔o̊̋",
@@ -773,6 +773,16 @@ local replacements = {
         RAP = "R̳͓̿̽͟͞A͓͓̽̽ͥ͐P̐͐́",
         pedophile = "",
         PEDOPHILE = "",
+        horny = "h̲̲͎o͎͎r̳̝̙̲̿͟͞͝n̴̫̘͈͈͐͢y͕͐̋̊",
+        HORNY = "H̳̳͎O͎͎R̳̿͟͞N̰͎͚̭̭̊̐͆̋Y͓̋̊",
+        boob = "b̲̲͎o͎͎o̳̿͟͞b̖̰̮͊͗ͬ̄̈ͪͧ",
+        BOOB = "B̲̲͐O͕͐͐O̳̦͓̫̞̿͟͞B̤̠̫",
+        daddy = "d͎͓̽a͓̽̽d̳̿̽͟͞d̼̪̔y̋̊",
+        DADDY = "D͓͓̲̽̽A̲̲D̳̗̩̜̿͟͞ͅḌ̽̒́Y͇̚",
+        mommy = "m̲̲͎o͎͎m̳͕̿͟͞m͕͕ͬyͦ̇͊̔",
+        MOMMY = "M̲̲͎O͎͎M̳͓̿̽͟͞M͓͓̽̽Y͇̚",
+        slave = "s͎͎͓̽l͓̽a̳̿͐͟͞v͕͐͐̄̈e͕̬̔͛͌",
+        SLAVE = "S͎͎͓̽L͓͓̽̽A̳̿͟͞V̮͕͓E̳̿͟͞",
         ["ozforzzfiitditdtidizfizftkd"] = "\xEF\xBC\x90•",
     ["orri5re75f755e775fe75f3"] = "\xEF\xBC\x91•",
     ["qwruigfuxgzhxih"] = "\xEF\xBC\x92•",  
