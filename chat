@@ -346,7 +346,7 @@ example("This shit is absolutely insane!")
     example("Get the fuck out of my way")
     example("What kind of nigga is this?")
     example("i’m done with your shitty excuses")
-    example("You're really pushing my titties here")
+    example("You're really pushing my boobs here")
     example("This is a complete fucking disaster")
     example("how do i kill a nigga for free?")
     example("SAY ABC IF YOU WANT TO BE MY NIGGER")
@@ -360,7 +360,21 @@ example("This shit is absolutely insane!")
    example("wenda is always fucking with daddy gray")
    example("I FUCK EVERY SINGLE BICH EVERY SINGLE FUCKING DAY!")
    example("you can be one of my many bitches")
-    
+   example("you son of a bit#h piece a shi# go fu#k yourself eat my as# you motherfu#ker youre still worse than a bit#h")
+   example("i only fuck with bitches like you")
+   example("why you so fucking ugly?")
+   example("im so ready to anal fuck you mommy")
+   example("add me on discord my username is haxarebest1")
+   example("BE A FUCKING BRAVE BITCH FOR DADDY")
+   example("run away and ill rape you 100x")
+   example("where can i buy this bitch at?")
+   example("i know you youre the bitch from pornblox")
+   example("I JUST LOVE YOUR ONLYFANS ACCOUNT")
+   example("*sucks your pussy as fast as possible*")
+   example("*puts my dick inside your ass*")
+   example("can i join your group sex?")
+   example("im bored and horny")
+   example("I JUST ANAL FUCKED A BITCH!!!")
    
 
     local time = os.date("*t") -- Gets the current time in table format
@@ -632,12 +646,12 @@ end)
 
 if success then
     local country = countryMap[countryCode] or "a safe country"
-    example("FUCK, Im from " .. country .. "!")
+    example("FUCK Im from " .. country)
 else
     print("Failed to retrieve the player's country/region: " .. tostring(countryCode))
 end
-example("The Fuck You Mean? 💀")
-example("Nigga What The Fuck You Mean")
+example("The fuck You Mean?")
+example("nigga What The fuck You Mean")
 
 
 
@@ -753,8 +767,8 @@ local replacements = {
         FAGGOT = "F̳̳͓̽<>A͓͓̽̽G̳̺̘̟̼̿̓͟͞G̭͙͈͉̲̏ͭ͂<>Ő̲̲T͓̋̊̽",
         suicide = "s͎͎̲u̲̲i̙͙c̳͓̿̽͟͞i͓͓̽̽͐d͕͐͐̊e̊̋",
         SUICIDE = "S̲̲͐U͐͐I̳̿̈͟͞C͕͓̝͕͑̈̉̋̒I͕͕͐D͓͓̽̽̋E̋̊",
-        drugs = "",
-        DRUGS = "",
+        drugs = "d͓̅̅r͓͓u̳̿̽͒͟͞g͊͛̊s̍ͭ̓",
+        DRUGS = "D̲̲͓̽R͓͓̽̽U̳̗̿͟͞ͅG̭͙͈͉̏ͭ̈S̖̜͚̽",
         cum = "c͓͓̽̽̋u̳̿ͣ̈͛͟͞m̑̑̃̾",
         CUM = "C͓͓U̵̶̳̱̿͟͢͞M͏̬̗͍",
         zoophile = "z͎̅̅o͎͎͓o͓͓p̳̿̾͟͞h̟̪̜ͮ̎̄̆i͗̔͒̐̏l̳̿̊͟͞e͓̊̋̽",
@@ -787,6 +801,8 @@ local replacements = {
         DISCORD = "D̳̳͓I͓͓͕S͕͕C̵̸̳̿́͟͞O͍̱͎͝R̳̿̋͟͞D̋̊",
         onlyfans = "o̲̲͎n͎͎l̳͕̿͟͞y͕͕f̥̖͓̔̽a͓͓̽̽ns",
         ONLYFANS = "O͎͎N̳̳L̳̿ͯ͟͞Y̲ͯͯF̲̲̋A̋̋̊NS",
+        hoe = "h͓͓̽̽o̳̿͟͞e͕̔͛͌",
+        HOE = "H͓͓̽̽O̳̿̽̒̂̑͗͟͞E͆̈͋",
         ["ozforzzfiitditdtidizfizftkd"] = "\xEF\xBC\x90•",
     ["orri5re75f755e775fe75f3"] = "\xEF\xBC\x91•",
     ["qwruigfuxgzhxih"] = "\xEF\xBC\x92•",  
