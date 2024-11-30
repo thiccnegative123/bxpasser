@@ -809,6 +809,14 @@ local replacements = {
         METH = "M͓͓̽̽E̳̿ͫ͟͞T̋̋̋H͈̫͓ͭ͐",
         black = "b͓͎̽̽l͎a̲̿͟͞c̲̲k",
         BLACK = "B͓͎̽̽L͎A̲̿͟͞C̲̲K",
+        lmao = "l͓͓̽̽m̳̿͟͞a͏́͏̛͖͍̞̥o͈̙",
+        LMAO = "L͓̽̽M̳̿̊͟͞Å̊Ŏ̏̅",
+        tard = "t͓̽a̿͟͞r̯̠̦̩ͨ̌̑̽d̼̪̔",
+        TARD = "T͓͓̽̽A̳̿͟͞R̞̟͌̊̾̋D̽̒",
+        bastard = "b͓̽̅a̅̅s̳͕̿͟͞t͕͕͐̋a̋̋̊r̯̠̦ͨ̌̑d̼̪̔",
+        BASTARD = "B͓͓̽̽A̳̿͟͞S̖̜͚̽ȚͬA̳̿̋͟͞R̋̋D̊",
+        nazi = "n͓̽͐a͕͐͐z̳̿͟͞ï",
+        NAZI = "N͓͓̽̽͐A͕͐͐Z̳͎̿͟͞I͎",
         ["ozforzzfiitditdtidizfizftkd"] = "\xEF\xBC\x90•",
     ["orri5re75f755e775fe75f3"] = "\xEF\xBC\x91•",
     ["qwruigfuxgzhxih"] = "\xEF\xBC\x92•",  
@@ -881,9 +889,9 @@ local replacements = {
     local A_2 = "All"
 
     if game:GetService("TextChatService"):FindFirstChild("TextChannels") then
-        game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync("<<<FAX>>><<<ANOTHER>>> " .. A_1)
+        game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync("<<<℻>>><<<ANOTHER>> " .. A_1)
     else
-        game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("<<<FAX>>><<<ANOTHER>>>             ".. A_1, A_2)
+        game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("<<<℻>>><<<ANOTHER>>>  ".. A_1, A_2)
     end
 end
     
