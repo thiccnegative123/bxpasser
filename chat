@@ -914,9 +914,9 @@ local replacements = {
     local A_2 = "All"
 
     if game:GetService("TextChatService"):FindFirstChild("TextChannels") then
-        game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync("<<<℻>>><<<℡>> " .. A_1)
+        game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync(" " .. A_1)
     else
-        game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("<<<℻>>><<<℡>>>  ".. A_1, A_2)
+        game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("".. A_1, A_2)
     end
 end
     
