@@ -1,4 +1,4 @@
-
+--<<<℻>>><<<℡>>> if thus dosnt work
 game.StarterGui:SetCore("SendNotification", {
     Title = "MADE BY HAXAREBEST";
     Text = "FUCK ALL THE BITCHES";
@@ -387,6 +387,9 @@ example("This shit is absolutely insane!")
    example ("shitbidick toilet makes me cum")
    example ("OMG IM GONNA FUCK YOURE MOTHER")
    example ("THERE ARE SO MANY BITCHES ADDING ME ON DISCORD")
+  example("pipe down nigger ur script is fully pasted")
+  example("you made my dick rise")
+  example("she didnt make my dick rise")
    
 
     local time = os.date("*t") -- Gets the current time in table format
@@ -843,7 +846,16 @@ local replacements = {
         YOUTUBE = "Y͓͕̽̽O͕͕ŪT̳̿͐͟͞U͕̲͐͐͐B̲̲E͆́͆̑",
         hentai = "h͓̽̽e͎͎n̳̿͟͞t͕͕͐à̑̉ͧi̊̋",
         HENTAI = "H͓͎̽̽E͎͎N̳̿͐͟͞T͐͐Ä́̚I̊̋",
-        ["ozforzzfiitditdtidizfizftkd"] = "\xEF\xBC\x90•",
+        pregnant = "p̠̠͕r͕͕͓͐̽e͓̽̽g̳̿̋͟͞n̋̋̊̽a͓̽n̳̿̈͟͞t͓̙͔͊",
+        PREGNAN = "P͓͓̳̽̽R̳̳͐E̸͕͐͐͑͊̉͌G̳͎̿͟͞N͎͎̾͐A͕͐͐N̳̿͟͞",
+        anus = "a͓͓̽̽͐n͕͐͐u̳̿̋͟͞s̋̊",
+        ANUS = "A͓͓̽̽͐N͕͐͐U̳̿̊͟͞S̊̋",
+        penis = "p͓͓̽̽͐e͕͕͐n̳͓̿͟͞i͓͓̋s̋̊",
+        PENIS = "P͓͓̽̽͐E͕͐͐N̳͓̿̽͟͞I̽S̋̊",
+        slut = "s͓͓͕̽̽l͕͕͐u̳̿̊͟͞t̊̋",
+        SLUT = "S͓͓͎̽̽L͎͎U̳̿̊͟͞T̊̋",
+        SUCK = "S͓͓͕̽̽U͕͕͐C̳̿̊͟͞K̊̋",
+        ["ozforzzfiitditdtidizfzftkd"] = "\xEF\xBC\x90•",
     ["orri5re75f755e775fe75f3"] = "\xEF\xBC\x91•",
     ["qwruigfuxgzhxih"] = "\xEF\xBC\x92•",  
     ["qwtuftuguhuhigihjgugj"] = "\xEF\xBC\x93•",  
@@ -915,7 +927,7 @@ local replacements = {
     local A_2 = "All"
 
     if game:GetService("TextChatService"):FindFirstChild("TextChannels") then
-        game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync(" " .. A_1)
+        game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync("" .. A_1)
     else
         game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("".. A_1, A_2)
     end
