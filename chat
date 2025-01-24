@@ -1,4 +1,4 @@
---<<<℻>>><<<℡>>> if thus dosnt work
+--<<<℻>>><<<℡>>> if this dosnt work
 game.StarterGui:SetCore("SendNotification", {
     Title = "MADE BY HAXAREBEST";
     Text = "FUCK ALL THE BITCHES";
@@ -392,6 +392,8 @@ example("This shit is absolutely insane!")
   example("she didnt make my dick rise")
   example("MY MIND MY DICK!")
   example("*retardation overload*")
+  example("im a member from the KKK")
+  example("TEAM KKK JOIN TODAY")
    
 
     local time = os.date("*t") -- Gets the current time in table format
@@ -857,6 +859,8 @@ local replacements = {
         slut = "s͓͓͕̽̽l͕͕͐u̳̿̊͟͞t̊̋",
         SLUT = "S͓͓͎̽̽L͎͎U̳̿̊͟͞T̊̋",
         SUCK = "S͓͓͕̽̽U͕͕͐C̳̿̊͟͞K̊̋",
+        kkk = "k͓̽̽k̳̿̊͟͞k̊̋",
+        KKK = "K͓͓̽̽K̳̿̊͟͞K̊̋",
         ["ozforzzfiitditdtidizfzftkd"] = "\xEF\xBC\x90•",
     ["orri5re75f755e775fe75f3"] = "\xEF\xBC\x91•",
     ["qwruigfuxgzhxih"] = "\xEF\xBC\x92•",  
