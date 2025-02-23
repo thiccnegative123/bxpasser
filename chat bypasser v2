@@ -405,6 +405,7 @@ example("This shit is absolutely insane!")
   example("SHUT THE FUCK UP YOU FUCKING ZOOPHILE GO BACK TO THE ZOO AND MASTURBATE ON DOGS ALSO KNOWN AS YOUR FATHERS")
   example("shut the fuck up my scripts can easly fuck your mothers pussy")
   example("MY 10 INCH DICK IS ABOUT TO GO IN YOUR ASS!!")
+  example("THE INCOGNITO CHAT BYPASSER V2 WAS FUCKING AWESOME BECAUSE AMIGOSCRIPTS SHOWCASED IT")
  
    
 
@@ -770,8 +771,8 @@ local replacements = {
         PORN = "P0ŘИ",
         bitch = "Бìťćん",
         BITCH = "乃ÍŤĆん",
-        nigga =  "ñìģqa ",
-        nigger = "ñìģqer ",
+        nigga =  "ñίģqa ",
+        nigger = "ñίģqer ",
         NIGGER = "ŅÌ[ĞĢÈR ",
         NIGGA = "ŅÌ[ĞĢA ",
         NIGGAS = "ŅÌ[ĞĢA Š",
@@ -783,8 +784,8 @@ local replacements = {
         GAY = "ĢÀÝ",
         pussy = "ƿȗṡṡʏ",
         PUSSY = "ႲႮŚŞჄ",
-        naked = "ňàķəď",
-        NAKED ="ŇÀĶƏĎ",
+        naked = "ňàķ۵ҽď",
+        NAKED = "ŇÀĶƐĎ",
         breast = "bŕəâšť",
         BREAST = "乃尺乇Ã$Ţ",
         suck = "śЦćķ",
@@ -794,8 +795,8 @@ local replacements = {
         ANAL = "ÁИĂĽ",
         adolf = "âđ۞ľf",
         ADOLF = "ÂĐ0ĽF",
-        hitler =  "hìťłəř",
-        HITLER = "HÌŤŁƏŘ",
+        hitler =  "hìťł۵ҽř",
+        HITLER = "HÌŤŁƐŘ",
         faggot = "fæģğöť",
         FAGGOT = "FÆĢĞÖȚ",
         suicide = "súìҀìđЄ",
@@ -808,8 +809,8 @@ local replacements = {
         ZOOPHILE = "Ź00PHÌĹÈ",
         masturbat = "ʍǟśʈʋřbɑʈ",
         MASTURBAT = "ʍĀŚŢŰŔ乃ÃȚ",
-        whore = "whořə",
-        WHORE = "WHOŘƏ",
+        whore = "whoř۵ҽ",
+        WHORE = "WHOŘƐ",
         cunt = "ćᵾήť",
         CUNT = "ĆЦŃᴛ",
         dildo = "ďìĺď۞",
@@ -860,7 +861,7 @@ local replacements = {
         WTF = "🆆🆃🅵",
         lmfao = "Iɱfàò",
         LMFAO = "ĹΛΛFÀŐ",
-        youtube = "ʏȏȗṭȗБə",
+        youtube = "ʏȏȗṭȗБ۵ҽ",
         YOUTUBE = "Ý0ЦŤЦБЄ",
         hentai = "həñťâì",
         HENTAI = "HƏŇŢÂί",
@@ -868,8 +869,8 @@ local replacements = {
         PREGNAN = "ƿŔÉĞŃÂŇŤ",
         anus = "áñűś",
         ANUS = "ÁÑŰŚ",
-        penis = "ƿəňίš",
-        PENIS = "PƏÑlŚ",
+        penis = "ƿ۵ҽňίš",
+        PENIS = "PƐÑlŚ",
         slut = "śIut",
         SLUT = "Šᴸᵁᵀ",
         SUCK = "ЅЦĆЌ",
