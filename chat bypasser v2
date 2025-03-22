@@ -406,7 +406,10 @@ example("This shit is absolutely insane!")
   example("shut the fuck up my scripts can easly fuck your mothers pussy")
   example("MY 10 INCH DICK IS ABOUT TO GO IN YOUR ASS!!")
   example("THE INCOGNITO CHAT BYPASSER V2 WAS FUCKING AWESOME BECAUSE AMIGOSCRIPTS SHOWCASED IT")
- 
+  example("SHUT THE FUCK UP BEFORE I CRUSH YOUR SKULL WITH MY BIG THIGHS")
+  example("dont make me call a zoophile on you")
+  example("your 10 year old father got raped by 2 old pedophiles")
+  example("i hate black niggers")
    
 
     local time = os.date("*t") -- Gets the current time in table format
@@ -768,7 +771,7 @@ local replacements = {
         shit = "Ѕĥίɬ",
         SHIT = "ŚHĺ'Ť",
         porn = "ƿ۞ŕñ",
-        PORN = "P0ŘИ",
+        PORN = "ƿ0Ř№",
         bitch = "ɓìťćん",
         BITCH = "乃ÍŤĆん",
         nigga =  "ṅìģ′ģå",
@@ -793,7 +796,7 @@ local replacements = {
         pussies = "ƿȗṡṡìéś",
         PUSSIES = "ႲႮŚŞÌÉŠ",
         anal = "àήãľ",
-        ANAL = "ÁИĂĽ",
+        ANAL = "Á/\/ĂĽ",
         adolf = "âđ۞ľf",
         ADOLF = "ÂĐ0ĽF",
         hitler =  "hìťł۵ҽř",
@@ -855,7 +858,7 @@ local replacements = {
         dat = "ɖáť",
         DAT = "ⅅÅṪ",
         trann = "ϯɾαηη¥",
-        TRANN = "ṪƦÀИИƳ",
+        TRANN = "ṪƦÀ/\/№Ƴ",
         kys = "Ќýś",
         KYS = "ЌÝŚ",
         wtf = "ẘťḟ",
