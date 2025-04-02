@@ -410,6 +410,7 @@ example("This shit is absolutely insane!")
   example("dont make me call a zoophile on you")
   example("your 10 year old father got raped by 2 old pedophiles")
   example("i hate black niggers")
+  example("life can get hard just like my dick")
    
 
     local time = os.date("*t") -- Gets the current time in table format
