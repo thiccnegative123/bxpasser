@@ -419,6 +419,7 @@ example("This shit is absolutely insane!")
   example("I could take that ass back to bed")
   example("Im gonna get you a dick sucker for Christmas so I dont have to do it no more")
   example("Can you imagine coming down there to steal little children and use them as sex slaves?")
+  example("if her age is on the clock she can get the cock")
 
     local time = os.date("*t") -- Gets the current time in table format
 local hour = time.hour -- Extract the hour
