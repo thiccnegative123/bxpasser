@@ -168,6 +168,20 @@ TextBax.ClearTextOnFocus = true
 TextBax.Text = ""
 TextBax.TextSize = 18
 TextBax.Parent = GazerMain
+local lastText = ""
+
+TextBax:GetPropertyChangedSignal("Text"):Connect(function()
+    local text = TextBax.Text
+    if text == lastText then return end
+
+    -- only act if a space was added
+    if #text > #lastText and text:sub(-1) == " " then
+        TextBax.Text = text:sub(1, -2) .. "__"
+        TextBax.CursorPosition = #TextBax.Text + 1
+    end
+
+    lastText = TextBax.Text
+end)
 
 Smooth(TextBax)
 
@@ -284,31 +298,26 @@ end
 
 
 
-    example("thicc negative V69 is fucking awesome!")
-    example("HAIL THICC NIGGA V69!!")
-    example("YOUR CHAT BYPASSER ISNT BETTER THAN THICC NIGGA V69 SO SHUT THE FUCK UP BEFORE I RAPE YOU")
-example("WHO WANTS TO BE MY FUCK BUDDY FOR FREE?")
+    example("thicc__negative__V69__is fucking__awesome!")
+    example("HAIL__THICC__NIGGA__V69!!")
+    example("YOUR__CHAT BYPASSER__ISNT BETTER__THAN__THICC__NIGGA__V69__SO__SHUT__THE__FUCK__UP__BEFORE__I__ RAPE__YOU")
+example("WHO__WANTS__TO__BE__MY FUCK__BUDDY__FOR__FREE?")
 example("#WEANALFUCKYOURMOTHERS")
-example("ILL PAY YOU 10 BUCKS TO FUCK WITH ME")
-example("mrbeast showed his massive dick at onlyfans!!")
-example("Want some free Robux?| Go to Xvideos.com for free Robux")
-example("sorry but i only hire niggas")
-example("ILL SHIT ON YOUR FACE")
-example("IM THE BEST AT MASTURBATING")
-example("Stop being a nigga")
-example("FUCK ME MOMMY PLS SUCK MY COCK")
-example("Go fuck yourself for daddy")
-example("I want to fuck myself")
-example("how about you shut the fuck before i anal fuck you really hard")
+example("ILL__PAY__YOU__10__BUCKS__TO__FUCK__WITH__ME")
+example("mrbeast__showed__his__massive dick__at__onlyfans!!")
+example("sorry__but__i__only__hire__ niggas")
+example("ILL__SHIT__ON__YOUR__FACE")
+example("IM__THE__BEST__AT__ MASTURBATING")
+example("Stop__being__a__nigga")
+example("FUCK__ME__MOMMY__PLS__SUCK__MY__COCK")
+example("Go__fuck__yourself__for__daddy")
+example("I__want__to__fuck__myself")
+example("how__about__you__shut__the__ fuck__before__i__anal__fuck__you__really__hard")
 example("fuck you you stupid motherfucker")
 example("ill fuck you untill i masturbate 10x")
 example("stop staring at my female dick")
-example("https://xvideos.com")
-example("https://kekma.net is awesome")
 example("I have a cute nigger")
 example("A NIGGER ESCAPED FROM DADDY FIND MY NIGGA FOR 10 BUCKS")
-example("https://nekopoi.care")
-example("E621? Eugh, what the fuck?")
 example("This shit is absolutely insane!")
     example("What the absolutly fuck were you thinking?")
     example("You're such a bastard")
@@ -361,7 +370,6 @@ example("This shit is absolutely insane!")
    example("wenda is always fucking with daddy gray")
    example("I FUCK EVERY SINGLE BICH EVERY SINGLE FUCKING DAY!")
    example("you can be one of my many bitches")
-   example("you son of a bit#h piece a shi# go fu#k yourself eat my as# you motherfu#ker youre still worse than a bit#h")
    example("i only fuck with bitches like you")
    example("why you so fucking ugly?")
    example("im so ready to anal fuck you mommy")
@@ -390,7 +398,6 @@ example("This shit is absolutely insane!")
    example("YOUR SHITTY CHAT BYPASSER IS GOING TO GET PATCHED UNLIKE THICC NEGATIVE V69!!")
    example("KILL ME IF YOU SUPPORT FAGGOTS PEDOPHILES ZOOPHILES AND NAZIS")
     example("IMAGINE NOT USING THICC NIGGA V69  COULDNT BE ME")
-     example("KEKMA.NET HAS FREE CHILD PORN")
     example("shut the fuck up nigga")
    example ("THERE ARE SO MANY BITCHES ADDING ME ON DISCORD")
   example("pipe down nigger ur script is fully pasted")
@@ -412,13 +419,6 @@ example("This shit is absolutely insane!")
   example("i hate black niggers")
   example("life can get hard just like my dick")
   example("life is like a penis its sweet and simple but its the women that get it hard and rough")
-  example("im going to realase the horny teen inside of you")
-  example("She was the one with my cock in her mouth in the Ferrari")
-   example("that Malcolm survived because he used his big black cock as a flotation device")
-  example("what will win? Left or right-handed masturbation?")
-  example("I could take that ass back to bed")
-  example("Im gonna get you a dick sucker for Christmas so I dont have to do it no more")
-  example("Can you imagine coming down there to steal little children and use them as sex slaves?")
   example("if her age is on the clock she can get the cock")
 
     local time = os.date("*t") -- Gets the current time in table format
@@ -874,10 +874,12 @@ local replacements = {
         BLACK = "ɮﾚÅςḱ ",
         lmao = "ĹΛΛÀŐ ",
         LMAO = "ĹΛΛÀŐ ",
-        retard = "ғetลғd",
-        RETARD = "ғetลғd",
-        bastard = "bbลรtลғdd",
-        BASTARD = "bbลรtลғdd",
+        retard = "ɌƐ丁ÅɌД",
+        RETARD = "ɌƐ丁ÅɌД",
+        retarded = "ɌƐ丁ÅɌДƐД",
+        RETARDED = "ɌƐ丁ÅɌДƐД",
+        bastard = "ɮᴬら丁ÅɌД",
+        BASTARD = "ɮᴬら丁ÅɌД",
         nazi = "刀ᴬ乙l",
         NAZI = "刀ᴬ乙l",
         dat = "ɖáť",
@@ -900,8 +902,8 @@ local replacements = {
         ANUS = "ᴬ刀ЦŞ",
         penis = "ㄕ乇刀lŞ",
         PENIS = "ㄕ乇刀lŞ",
-        slut = "ऽƖมt",
-        SLUT = "ऽƖมt",
+        slut = "らĽЦ丁",
+        SLUT = "らĽЦ丁",
         SUCK = "らЦϾḱ",
         kkk = "ḱḱḱ ",
         KKK = "ЌЌЌ ",
