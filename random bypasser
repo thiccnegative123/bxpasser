@@ -1,0 +1,222 @@
+--// SenSitive Bypass - Updated Unicode (Unpatched Alphabet) //--
+
+local Rayfield = loadstring(game:HttpGet("https://sirius.menu/rayfield"))()
+
+local CorrectKey = ""
+local EnteredKey = ""
+
+-- player & humanoid
+local player = game.Players.LocalPlayer
+local char = player.Character or player.CharacterAdded:Wait()
+local humanoid = char:WaitForChild("Humanoid")
+
+local function killAnims()
+	for _, track in ipairs(humanoid:GetPlayingAnimationTracks()) do
+		track:Stop()
+	end
+	humanoid.AutoRotate = true
+end
+
+local MainWindow = Rayfield:CreateWindow({
+	Name = "SenSitive Bypass",
+	LoadingTitle = "SenSitive Bypass",
+	LoadingSubtitle = "Key System",
+	ConfigurationSaving = { Enabled = false },
+	Discord = { Enabled = false },
+	KeySystem = false
+})
+
+local KeyTab = MainWindow:CreateTab("Key")
+
+Rayfield:Notify({ Title = "Welcome", Content = "Enter your key to access SenSitive Bypass", Duration = 4 })
+
+KeyTab:CreateInput({
+	Name = "Enter Key",
+	PlaceholderText = "Your access key...",
+	RemoveTextAfterFocusLost = false,
+	Callback = function(Value)
+		EnteredKey = tostring(Value or "")
+	end
+})
+
+local function createHub()
+
+	local chatTab = MainWindow:CreateTab("Chat Bypass")
+
+	chatTab:CreateParagraph({
+		Title = "WARNING",
+		Content = "Change Roblox language to Shqipe for best experience"
+	})
+
+	local autobypass = false
+	local method = 1
+
+	chatTab:CreateDropdown({
+		Name = "Method",
+		Options = {"Method 1"},
+		CurrentOption = "Method 1",
+		Callback = function(val)
+			method = 1
+		end
+	})
+
+	chatTab:CreateInput({
+		Name = "Chat",
+		CurrentValue = "",
+		PlaceholderText = "Enter Chat",
+		RemoveTextAfterFocusLost = true,
+		Callback = function(val)
+			if val and val ~= "" then
+				local ok, err = pcall(function() chat(bypasstext(val, method)) end)
+				if not ok then
+					Rayfield:Notify({ Title = "Error", Content = "chat send failed: "..tostring(err), Duration = 4 })
+				end
+			else
+				Rayfield:Notify({ Title = "Ops.", Content = "Looks like you didn't enter any text!", Duration = 4 })
+			end
+		end
+	})
+
+	chatTab:CreateToggle({
+		Name = "Auto Bypass",
+		CurrentValue = false,
+		Callback = function(val) autobypass = val end
+	})
+
+	chatTab:CreateButton({
+		Name = "Fix Filter",
+		Callback = function()
+			local ok, e = pcall(function() chat("abcdefg()!") end)
+			if not ok then Rayfield:Notify({ Title = "Error", Content = "fix filter failed: "..tostring(e), Duration = 4 }) end
+		end
+	})
+
+	local settingsTab = MainWindow:CreateTab("Settings")
+	settingsTab:CreateButton({ Name = "Destroy UI", Callback = function() Rayfield:Destroy() end })
+
+	local creditsTab = MainWindow:CreateTab("Credits")
+	creditsTab:CreateParagraph({Title = "Made By", Content = "Sen — Developer of SenSitive Bypass"})
+	creditsTab:CreateButton({Name = "Contact Me (Discord)", Callback = function() setclipboard("@rekx4") Rayfield:Notify({Title = "Copied!", Content = "Discord: @rekx4", Duration = 4}) end})
+	creditsTab:CreateButton({Name = "My Socials", Callback = function() setclipboard("https://guns.lol/senprobcoding") Rayfield:Notify({Title = "Copied!", Content = "guns.lol/senprobcoding", Duration = 4}) end})
+
+	function chat(msg)
+		if pcall(function() return game:GetService("TextChatService").ChatVersion end) and game:GetService("TextChatService").ChatVersion == Enum.ChatVersion.TextChatService then
+			game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync(msg)
+		else
+			game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer(msg, "All")
+		end
+	end
+
+	-- ============================
+	-- CLEAN ALPHABET (NO INVISIBLE SPACES)
+	-- ============================
+
+	function bypasstext(text, methodIndex)
+		if type(methodIndex) ~= "number" then methodIndex = 1 end
+		if methodIndex == 1 then
+
+			local alphabet = {
+				a = "ล",
+				b = "ӏɔ",
+				c = "ჺ",
+				d = "d",
+				e = "e",
+				f = "f",
+				g = "g",
+				h = "ӏⴈ",
+				i = "เ่",
+				j = "ϳ",
+				k = "k",
+				l = "ӏ",
+				m = "ทา",
+				n = "ฑ",
+				o = "o",
+				p = "p",
+				q = "q",
+				r = "ґ",
+				s = "ธ",
+				t = "t",
+				u = "ιɹ",
+				v = "v",
+				w = "w",
+				x = "ӿ",
+				y = "y",
+				z = "z",
+
+				A = "ล",
+				B = "ӏɔ",
+				C = "ჺ",
+				D = "d",
+				E = "e",
+				F = "f",
+				G = "g",
+				H = "ӏⴈ",
+				I = "เ่",
+				J = "ϳ",
+				K = "k",
+				L = "ӏ",
+				M = "ทา",
+				N = "ฑ",
+				O = "o",
+				P = "p",
+				Q = "q",
+				R = "ґ",
+				S = "ธ",
+				T = "t",
+				U = "ιɹ",
+				V = "v",
+				W = "w",
+				X = "ӿ",
+				Y = "y",
+				Z = "z",
+			}
+
+			local out = ""
+			for i = 1, #text do
+				local c = text:sub(i, i)
+				out = out .. (alphabet[c] or c)
+			end
+
+			return "{㍰" .. out .. "㍰}"
+		end
+
+		return text
+	end
+
+	local textBox = nil
+	pcall(function()
+		textBox = game:GetService("CoreGui").ExperienceChat.appLayout.chatInputBar.Background.Container.TextContainer.TextBoxContainer.TextBox
+	end)
+
+	if textBox then
+		textBox.FocusLost:Connect(function(enter)
+			if enter and autobypass and textBox.Text ~= "" then
+				local ok, e = pcall(function() chat(bypasstext(textBox.Text, method)) end)
+				if not ok then Rayfield:Notify({ Title = "Error", Content = "Auto bypass failed: "..tostring(e), Duration = 4 }) end
+				textBox.Text = ""
+			end
+		end)
+	end
+end
+
+KeyTab:CreateButton({
+	Name = "Verify Key",
+	Callback = function()
+		if EnteredKey == CorrectKey then
+			Rayfield:Notify({ Title = "Access Granted", Content = "Welcome to SenSitive Bypass", Duration = 3 })
+			task.wait(0.25)
+			createHub()
+			pcall(killAnims)
+		else
+			Rayfield:Notify({ Title = "Invalid Key", Content = "That key is incorrect.", Duration = 4 })
+		end
+	end
+})
+
+KeyTab:CreateButton({
+	Name = "Get Key",
+	Callback = function()
+		setclipboard("https://discord.gg/b7dJVmbsJ6")
+		Rayfield:Notify({ Title = "Discord Link Copied!", Content = "Join the server to get your key.", Duration = 4 })
+	end
+})
